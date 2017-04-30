@@ -1,6 +1,8 @@
 #Engineer: Christopher Parks
 #Contact: cparks13 at live dot com
 
+# Add the following line to the end of "/etc/rc.local", before "exit 0":
+# "python /home/pi/buttonscript.py &"
 
 import RPi.GPIO as GPIO
 import time
